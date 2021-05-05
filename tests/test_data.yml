@@ -1,0 +1,146 @@
+---
+asciinema:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "john"
+    - "kevin"
+    - "david"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+deviantart:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "joshua"
+    - "steve"
+    - "john"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+facebook:
+  avatar_usernames:
+    - "brianchesky"
+    - "sheryl"
+  invalid_usernames:
+    - "hello..world"
+    - "hell..."
+    - "manvendra.com"
+  taken_usernames:
+    - "manu.chroma"
+    - "vijeth.kv"
+    - "gyanlakhwani"
+  available_usernames:
+    - "manvendra03"
+github:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "andrewda"
+    - "jlord"
+    - "cheshire137"
+    - "a-b-c"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+gitlab:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "andrewda"
+    - "nkprince007"
+    - "rohanvdhulla"
+    - "Rohanvdhulla"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+keybase:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "jayvdb"
+    - "chris"
+    - "ayoubd"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+soundcloud:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "g_eazy"
+    - "postmalone"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+twitter:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "BillGates"
+    - "ElonMusk"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+instagram:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "BillGates"
+    - "ElonMusk"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+behance:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "andrewda"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+gravatar:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "kaiusesthis"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+tumblr:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "steve"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+medium:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "MediumStaff"
+    - "Medium"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+openhub:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "seeeturtle"
+    - "andrewda"
+    - "nibnalin"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+opensuse:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "warlordfff"
+    - "biscuitsnake"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+pinterest:
+  invalid_usernames:
+    - "$very%long{invalid}user(name)"
+  taken_usernames:
+    - "steve"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
+wikimedia:
+  invalid_usernames:
+    - "$very%long{invalid}user(name);|<>"
+  taken_usernames:
+    - "kai"
+  available_usernames:
+    - "zNRe3jx3isA8CoM"
