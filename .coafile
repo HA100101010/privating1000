@@ -1,0 +1,42 @@
+[all]
+files = *.py, tests/*.py,
+max_line_length = 90
+use_spaces = True
+
+[all.whitespace]
+use_spaces = True
+bears = SpaceConsistencyBear
+default_actions = *: ApplyPatchAction
+
+[all.python]
+language = Python
+bears = QuotesBear
+preferred_quotation = '
+default_actions = *: ApplyPatchAction
+
+[all.autopep8]
+bears = PEP8Bear, PycodestyleBear, PyDocStyleBear
+default_actions = PEP8Bear: ApplyPatchAction
+pydocstyle_ignore = D100, D101, D102, D103, D104, D105, D106, D107,
+D200, D203, D212
+
+[all.linelength]
+bears = LineLengthBear
+
+[css]
+files = static/css/*.css
+bears = LineLengthBear, SpaceConsistencyBear, StyleLintBear
+use_spaces = true
+ignore_length_regex = url #ignore links
+
+[html]
+files = templates/*.html
+bears = LineLengthBear, SpaceConsistencyBear
+use_spaces = true
+max_line_length = 200
+ignore_length_regex = <path #ignore svg paths
+default_actions = *: ApplyPatchAction
+
+[yaml]
+files = *.yml
+bears = YAMLLintBear

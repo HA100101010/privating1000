@@ -1,0 +1,183 @@
+---
+urls:
+  asciinema: https://{w}.org/~{u}
+  behance: https://{w}.net/{u}
+  deviantart: https://{u}.{w}.com/
+  facebook: https://mbasic.{w}.com/{u}
+  gravatar: https://en.{w}.com/{u}
+  keybase: https://{w}.io/{u}
+  medium: https://{w}.com/@{u}
+  openhub: https://www.{w}.net/accounts/{u}
+  opensuse: https://connect.{w}.org/pg/profile/{u}
+  pinterest: https://www.{w}.com/{u}
+  tumblr: https://{u}.{w}.com
+  wikimedia: https://meta.{w}.org/wiki/Special:CentralAuth/{u}
+signup:
+  asciinema: https://{w}.org/login/new
+  behance: https://{w}.net/signup
+  deviantart: https://join.{w}.com/
+  facebook: https://mbasic.{w}.com/reg
+  gravatar: https://en.{w}.com/site/signup
+  keybase: https://{w}.io/
+  medium: https://{w}.com/m/signin
+  openhub: https://www.{w}.net/accounts/accounts/new
+  opensuse: https://www.microfocus.com/selfreg/jsp/createOpenSuseAccount.jsp
+  pinterest: https://www.{w}.com/
+  tumblr: https://www.{w}.com
+  wikimedia: https://meta.{w}.org/w/index.php?title=Special:CreateAccount
+content_verification:
+  gitlab: 'Snippets'
+  opensuse: 'About me'
+  pinterest: '{u}'
+  wikimedia: 'Registered'
+constant_usernames:
+  asciinema: 'john'
+  behance: 'seeeturtle'
+  deviantart: 'joshua'
+  facebook: 'gyanlakhwani'
+  github: 'seeeturtle'
+  gitlab: 'andrewda'
+  gravatar: 'kaiusesthis'
+  instagram: 'ElonMusk'
+  keybase: 'jayvdb'
+  medium: 'MediumStaff'
+  openhub: 'seeeturtle'
+  opensuse: 'biscuitsnake'
+  pinterest: 'steve'
+  soundcloud: 'postmalone'
+  tumblr: 'steve'
+  twitter: 'ElonMusk'
+  wikimedia: 'kaichen120'
+username_patterns:
+  asciinema:
+    characters: a-zA-Z0-9-
+    available_min_length: 2
+    min_length: 2
+    max_length: 16
+  behance:
+    characters: a-zA-Z0-9_-
+    available_min_length: 4
+    min_length: 3
+    max_length: 30
+  deviantart:
+    characters: a-zA-Z0-9-
+    available_min_length: 5
+    min_length: 3
+    max_length: 20
+    invalid_patterns:
+      - '^-'
+      - '-$'
+  facebook:
+    characters: a-z0-9A-Z.
+    available_min_length: 6
+    min_length: 5
+    max_length: 50
+    invalid_patterns:
+      - '\.(com|net)'
+      - "(\\.)\\1{1,}"  # consecutive '.' not allowed
+  gitlab:
+    characters: a-zA-Z0-9_.-
+    available_min_length: 4
+    min_length: 1
+    max_length: 255
+  github:
+    characters: a-zA-Z0-9-
+    available_min_length: 5
+    min_length: 1
+    max_length: 39
+    invalid_patterns:
+      - '-{2,}'
+      - '^-'
+      - '-$'
+  gravatar:
+    characters: a-zA-Z0-9
+    available_min_length: 4
+    min_length: 4
+    max_length: 50
+  instagram:
+    characters: a-zA-Z0-9_.
+    available_min_length: 5
+    min_length: 1
+    max_length: 30
+  keybase:
+    characters: a-zA-Z0-9_
+    available_min_length: 5
+    min_length: 2
+    max_length: 15
+    invalid_patterns:
+      - '_{2,}'
+      - '^_'
+  medium:
+    characters: a-zA-Z0-9_.
+    available_min_length: 5
+    min_length: 1
+    max_length: 15
+  openhub:
+    characters: a-zA-Z0-9_-
+    available_min_length: 4
+    min_length: 3
+    max_length: 40
+    invalid_patterns:
+      - '^[^a-zA-Z]'
+  opensuse:
+    characters: a-zA-Z0-9_-
+    available_min_length: 3
+    min_length: 2
+    max_length: 50
+  pinterest:
+    characters: a-zA-Z0-9_
+    available_min_length: 4
+    min_length: 3
+    max_length: 15
+  soundcloud:
+    characters: a-zA-Z0-9_-
+    available_min_length: 5
+    min_length: 1
+    max_length: 25
+  tumblr:
+    characters: a-zA-Z0-9-
+    available_min_length: 5
+    min_length: 1
+    max_length: 32
+    invalid_patterns:
+      - '^-'
+      - '-$'
+  twitter:
+    characters: a-zA-Z0-9_
+    available_min_length: 6
+    min_length: 5
+    max_length: 15
+  wikimedia:
+    characters: a-zA-Z0-9-_.,!=()=;:\%*&~`
+    available_min_length: 6
+    min_length: 1
+    max_length: 85
+avatar:
+  asciinema: false
+  behance: false
+  deviantart: opengraph
+  facebook: opengraph
+  github: opengraph
+  gitlab: opengraph
+  gravatar:
+    html_selector: '.photo-0'
+  instagram: opengraph
+  keybase: opengraph
+  medium: opengraph
+  openhub:
+    html_selector: '#account_icon > img'
+  opensuse:
+    html_selector: '#profile_icon_wrapper > img'
+  pinterest:
+    key: image_xlarge_url
+  soundcloud: opengraph
+  tumblr: opengraph
+  twitter:
+    url: https://twitter.com/{u}/profile_image?size=original
+  wikimedia: false
+logos:
+  # fontawesome: full class that you would normally put in a fontawesome element
+  wikimedia:
+    fontawesome: fab fa-wikipedia-w
+  keybase:
+    url: https://png.icons8.com/ios/30/000000/keybase.png
